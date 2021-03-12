@@ -11,7 +11,7 @@
 
 import React from 'react';
 
-import NotFound from 'components/NotFound';
+import NotFound from 'strapi-helper-plugin/lib/src/components/NotFound';
 
 export default class NotFoundPage extends React.Component {
   render() {

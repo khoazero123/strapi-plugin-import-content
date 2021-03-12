@@ -52,14 +52,12 @@ const isFirstRun = async () => {
   return !initHasRun;
 };
 
-module.exports = async callback => {
+module.exports = async () => {
   const shouldSetDefaultPermissions = await isFirstRun();
 
   if (shouldSetDefaultPermissions) {
-    await setDefaultPermissions();
+    // await setDefaultPermissions();
   }
 
-  await resetOngoingImports();
-
-  callback();
+  // await resetOngoingImports();
 };

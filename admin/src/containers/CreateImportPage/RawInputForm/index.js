@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { injectIntl } from 'react-intl';
-import Label from 'components/Label';
-import InputTextArea from 'components/InputTextArea';
-import InputSelect from 'components/InputSelect';
-import Button from 'components/Button';
-import InputSpacer from 'components/InputSpacer';
+import Label from 'strapi-helper-plugin/lib/src/components/Label';
+import InputTextArea from 'strapi-helper-plugin/lib/src/components/InputTextArea';
+import InputSelect from 'strapi-helper-plugin/lib/src/components/InputSelect';
+import Button from 'strapi-helper-plugin/lib/src/components/Button';
+import InputSpacer from 'strapi-helper-plugin/lib/src/components/InputSpacer';
 
 import styles from './styles.scss';
 

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { injectIntl } from 'react-intl';
 import _ from 'lodash';
 
-import Label from 'components/Label';
+import Label from 'strapi-helper-plugin/lib/src/components/Label';
 import styles from './styles.scss';
 
 export class InputFormatSettings extends Component {

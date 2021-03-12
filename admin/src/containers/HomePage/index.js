@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Button from 'components/Button';
-import IcoContainer from 'components/IcoContainer';
+import Button from 'strapi-helper-plugin/lib/src/components/Button/index';
+import IcoContainer from 'strapi-helper-plugin/lib/src/components/IcoContainer/index';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { injectIntl } from 'react-intl';
 import { compose } from 'redux';
-import pluginId from 'pluginId';
+import pluginId from '../../pluginId';
 import moment from 'moment';
 
 import {

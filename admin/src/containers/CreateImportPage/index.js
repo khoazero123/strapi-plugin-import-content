@@ -4,13 +4,13 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { injectIntl } from 'react-intl';
 import { compose } from 'redux';
-import pluginId from 'pluginId';
+import pluginId from '../../pluginId';
 
-import Button from 'components/Button';
-import PluginHeader from 'components/PluginHeader';
-import InputSelect from 'components/InputSelect';
-import InputSpacer from 'components/InputSpacer';
-import Label from 'components/Label';
+import Button from 'strapi-helper-plugin/lib/src/components/Button';
+import PluginHeader from 'strapi-helper-plugin/lib/src/components/PluginHeader';
+import InputSelect from 'strapi-helper-plugin/lib/src/components/InputSelect';
+import InputSpacer from 'strapi-helper-plugin/lib/src/components/InputSpacer';
+import Label from 'strapi-helper-plugin/lib/src/components/Label';
 
 import ExternalUrlForm from './ExternalUrlForm';
 import UploadFileForm from './UploadFileForm';
